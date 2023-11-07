@@ -11,6 +11,7 @@
 body {
     max-width: 1000px;
     margin: auto;
+    
 }
 
 #header {
@@ -28,9 +29,12 @@ body {
 
 p {
     margin-top: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 27px;
 }
 
 a {
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     color: azure;
@@ -53,6 +57,6 @@ a {
 
 .tableform {
     margin-bottom: 50px;
-    background-image: url(img/zoo.jpg);
-    background-size: cover;
-}
+    background-image: url(img/computer2.jpg);
+    background-size: cover ;
+    background-position-y: 25%;
