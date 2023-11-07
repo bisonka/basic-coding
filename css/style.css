@@ -1,0 +1,58 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#header {
+    background-color: rgb(50, 89, 216);
+    background-image: url(img/coding.png);
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 50px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+}
+
+p {
+    margin-top: 15px;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: azure;
+    text-shadow: 2px 2px #000000;
+    background-color: rgb(243, 243, 242);
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    top: 250px;
+    position: relative;
+
+}
+
+.asobu {
+    margin-bottom: 50px;
+    background-image: url(img/zoo.jpg);
+    background-size: cover;
+}
+
+.tableform {
+    margin-bottom: 50px;
+    background-image: url(img/zoo.jpg);
+    background-size: cover;
+}
