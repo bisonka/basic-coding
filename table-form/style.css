@@ -6,15 +6,197 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+#table-form {
+    background-color: #508D69;
+    padding: 15px 0;
+}
+
+.container {
+    background-color: #fdfdf4;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 55%;
+    padding-bottom: 50px;
+    padding: 20px;
+}
+
+.table, th, td {
+    border: solid 1px black;
+}
+
+.tables {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    border-bottom: solid 5px #000000;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    display: block;
+    font-size: 1cm;
+    margin-block-start: 0,83cm;
+    margin-block-end: 0,83cm;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1cm;
+    margin-block-end: 1cm;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 16px;
+}
+
+.tables table {
+    width: 100%;
+    border: solid 1px #19334a;
+    border-collapse: collapse;
+}
+
+.first-table table th {
+    background-color: #F1EB90;
+}
+
 table {
     display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
     text-indent: initial;
     border-spacing: 2px;
 }
 
-.container {
-    width: 100%;
-    max-width: 900px;
-    margin: auto;
+table td {
+    padding: 5px 0;
+    text-align: center;
 }
 
+.tables table th .tables table td {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.first-table table th {
+    background-color: #F1EB90;
+}
+
+.first-table table td {
+    background-color: #ffffff;
+}
+
+.second-table table th {
+    background-color: #F1EB90;
+}
+
+.second-table table td {
+    background-color: #ffffff;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 0cm;
+    display: block;
+}
+
+.form label {
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+label {
+    cursor: default;
+}
+
+.form input, .form select {
+    width: 100%;
+    display: block;
+    background-color: #FCE09B;
+    border: none;
+    padding: 10px;
+}
+
+select {
+    cursor: pointer;
+}
+
+input[type="text" i] {
+    padding-block: 5px;
+    padding-inline: 2px;
+}
+
+.form textarea {
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+    padding: 10px;
+}
+
+.form button {
+    width: 100%;
+    background-color: #FFCC70;
+    padding: 10%;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.form button:hover {
+    background-color: #86A789;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        padding: 0 10px 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 425px) {
+    .familia-list li{
+        width: 100%;
+    }
+}
